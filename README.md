@@ -1,18 +1,50 @@
 # Sales_Dashboard_using_Google_looker
 Sales Forecasting with Google Looker Studio Dashboard
-Here’s a perfect **GitHub repo description** for your project, Yadav Ji 👑. I’ve written it in a way that feels **professional**, **clear**, and **impressive** (so your teacher, boss, or even recruiters will say *“wah!”*).
+
+This repository showcases the final project I developed during my internship with Nullclass, focusing on real-time data analytics and visualization using Google Looker Studio.
+
+The goal was to build an interactive sales and operations dashboard that provides actionable insights and predictive analytics for e-commerce data. The project applies concepts from data preprocessing, machine learning, and BI visualization.
+
+🚀 Project Overview
+As part of the internship, I completed two core tasks:
+
 
 ---
+1️⃣ **Sales Prediction for the Next Quarter**
 
-## ✨ **Repository: Sales Forecasting with Google Looker Studio Dashboard**
+📖 Scenario:
+The Sales Team wanted to predict total sales for Q2 2023 using historical sales data.
 
-### 📊 **Sales Prediction for Next Quarter using Machine Learning**
+📌 Requirements:
 
-This project predicts **total sales for Q2 2023** using historical sales data (Q1–Q4 2022) and visualizes insights on a **dynamic dashboard** built with **Google Looker Studio**.
+Use data from Q1 2022 to Q4 2022 to train a predictive model.
+Evaluate the model’s accuracy using MAE (Mean Absolute Error) and RMSE (Root Mean Squared Error).
+Forecast total sales for Q2 2023 and identify quarterly trends.
 
-It leverages **Python** for data preprocessing & modeling and **Looker Studio** for interactive reporting.
+📊 Key Features:
+order_date
+qty_ordered
+Machine Learning libraries: Scikit-learn, Statsmodels
 
----
+
+
+
+2️⃣ **Product Category Performance by Net Profit**
+
+📖 Scenario:
+The Operations Team wanted to analyze net profit per product category to identify the most profitable ones.
+
+📌 Requirements:
+
+Create a bar chart showing total net profit
+Sort categories from highest to lowest net profit.
+Add a year filter (slicer) for dynamic reporting.
+
+📊 Key Features:
+category
+after_discount
+cogs
+
 
 ### 🛠️ **Features**
 
@@ -32,16 +64,72 @@ It leverages **Python** for data preprocessing & modeling and **Looker Studio** 
   * Model performance metrics (MAE & RMSE).
 
 ---
+**Tech Stack**
 
-### ⚙️ **Tech Stack**
+SQL:
 
-* **Python 3.10**
+Database creation, querying, and aggregation.
 
-  * Pandas
-  * scikit-learn
-  * NumPy
-* **Google Sheets**
-* **Google Looker Studio**
+Extracted data using JOIN, GROUP BY, and advanced filtering.
+
+
+
+Python:
+
+Data processing with Pandas for cleaning and transformation.
+
+Visualization using Matplotlib and Seaborn for detailed insights.
+
+
+
+Google Looker Studio:
+
+Created interactive dashboards with real-time filters and drill-down capabilities.
+
+Integrated SQL-based data for visualization and easy sharing with stakeholders.
+
+Features and Benefits
+
+
+Basic SQL Knowledge:
+
+Understanding of SQL queries such as SELECT, JOIN, GROUP BY, and filtering data using WHERE and HAVING.
+
+Familiarity with creating and managing relational databases and tables.
+
+
+
+Basic Python Skills:
+
+Knowledge of Python and libraries such as Pandas for data manipulation and Matplotlib/Seaborn for basic visualizations.
+
+Experience in handling data frames and performing data cleaning and transformation tasks.
+
+
+
+Google Looker Studio:
+
+Familiarity with Google Looker Studio (formerly Google Data Studio) for creating interactive dashboards and visualizations.
+
+Knowledge of connecting data sources and building dynamic reports.
+
+
+
+Data Analysis Concepts:
+
+Understanding basic data analysis techniques, such as identifying trends, comparing time periods, and aggregating data to derive insights.
+
+Familiarity with metrics like growth percentages, total sales, and performance benchmarks.
+
+
+
+Tools & Technologies:
+
+SQL Database: A SQL-based database to store and query the data.
+
+Python: IDE or environment (e.g., Jupyter Notebook, Google Colab) for running Python scripts.
+
+Google Looker Studio: A Google account and access to Looker Studio for creating and sharing dashboards.
 
 ---
 
@@ -55,40 +143,20 @@ It leverages **Python** for data preprocessing & modeling and **Looker Studio** 
 
 ---
 
-### 📁 **Folder Structure**
 
-```
-📦 sales-forecasting-dashboard
-┣ 📂 data
-┃ ┗ 📄 finaldataset.csv
-┣ 📂 notebooks
-┃ ┗ 📄 sales_forecasting.ipynb
-┣ 📂 exports
-┃ ┗ 📄 quarterly_sales_with_predictions.csv
-┣ 📄 README.md
-┗ 📄 requirements.txt
-```
 
 ---
 
 ### 🌟 **Live Demo**
 
-[🔗 Click here to view the Looker Studio Dashboard](#) *(Add your dashboard share link here)*
+[🔗 Click here to view the Looker Studio Dashboard](https://lookerstudio.google.com/s/rRXrsgPyMuU) 
 
 ---
 
 ### 📌 **How to Use**
 
-1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/your-username/sales-forecasting-dashboard.git
-   ```
+1. Clone the repo:   
 2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
 3. Run the Python script to generate predictions.
 4. Upload CSV to Google Sheets → Connect to Looker Studio.
 5. Customize and share your dashboard.
@@ -105,8 +173,3 @@ This project is perfect for:
 
 ---
 
-Do you want me to:
-✅ Write the **full `README.md`** file (with images & Python code blocks)?
-✅ Or prepare the **entire repo structure with files** so you can directly upload to GitHub?
-
-Which one should I create for you? **Minimal README** or **Pro-level complete GitHub repo setup?**
