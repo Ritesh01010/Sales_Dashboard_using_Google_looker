@@ -143,6 +143,15 @@ Google Looker Studio: A Google account and access to Looker Studio for creating 
 
 ---
 
+## 📸 Dashboard Preview
+
+![Page 1 Campaign Trends](https://github.com/Ritesh01010/Sales_Dashboard_using_Google_looker/blob/main/Page%201%20Campaign%20Trends.png)
+![Page 2  Costumer and Sales Data](https://github.com/Ritesh01010/Sales_Dashboard_using_Google_looker/blob/main/Page%202%20Costumer%20and%20Sales%20Data.png)
+![Page 3 Sales Prediction for the Next Quarter Using Historical Data Scenario](https://github.com/Ritesh01010/Sales_Dashboard_using_Google_looker/blob/main/Page%203%20Sales%20Prediction%20for%20the%20Next%20Quarter%20Using%20Historical%20Data%20Scenario.png)
+![Product Category Net Profit Analysis](https://github.com/Ritesh01010/Sales_Dashboard_using_Google_looker/blob/main/Page%204%20Product%20Category%20Net%20Profit%20Analysis.png)
+
+
+
 
 
 ---
@@ -172,4 +181,10 @@ This project is perfect for:
 * 🎓 Data Science students building ML dashboards.
 
 ---
+### 👨‍💼 **Author**
 
+* Ritesh Yadav
+* Final Internship Submission
+---
+### ✅ **Project Status**
+* 🟢 Completed — Ready for evaluation and stipend review
